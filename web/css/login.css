@@ -1,0 +1,32 @@
+/* 
+    Document   : login.css
+    Created on : Mar 15, 2011, 7:04:12 PM
+    Author     : frank
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    font-family: sans-serif;
+}
+#loginUsernameDiv {
+    width:170px;
+    float:left;
+    margin:5px;
+}
+#loginPasswordDiv {
+    width:170px;
+    float: right;
+    margin:5px;
+}
+#form-container{
+    width: 360px;
+    margin: 100px auto 0 auto;
+    border: 8px #ddd solid;
+    padding: 20px;
+}

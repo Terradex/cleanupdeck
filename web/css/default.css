@@ -1,0 +1,268 @@
+html, body {
+    font:normal 12px verdana;
+    margin:0;
+    padding:0;
+    border:0 none;
+    overflow:hidden;
+    height:100%;
+}
+p {
+    margin:5px;
+}
+#loading-mask {
+  position: absolute;
+  left:     0;
+  top:      0;
+  width:    100%;
+  height:   100%;
+  z-index:  20000;
+  background-color: white;
+}
+#loading {
+  position: absolute;
+  left:     50%;
+  top:      50%;
+  padding:  2px;
+  z-index:  20001;
+  height:   auto;
+  margin:   -35px 0 0 -30px;
+}
+#loading .loading-indicator {
+  background: url(../img/loading.gif) no-repeat;
+  color:      #555;
+  font:       bold 13px tahoma,arial,helvetica;
+  /*padding:    8px 42px;*/
+  margin:     0;
+  text-align: center;
+  height:     auto;
+}
+div.search-item {
+  padding:	0px 5px;
+}
+#the-table { border:1px solid #bbb;border-collapse:collapse; }
+#the-table td,#the-table th { border:1px solid #ccc;border-collapse:collapse;padding:5px; }
+div.center  /* Internet Explorer */ {
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+div.center  /* Mozilla Firefox alignment */ {
+    text-align: -moz-center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.legend-item {
+    margin: 0.5em 10px;
+}
+.icon-maplayers {
+    background-image: url(../img/layers.png) !important;
+}
+.icon-filter {
+    background-image: url(../img/tick.png) !important;
+}
+.icon-maplegend {
+    background-image: url(../img/layout_content.png) !important;
+}
+.icon-interactivemap {
+    background-image: url(../img/map.png) !important;
+}
+.icon-about {
+    background-image: url(../img/help.png) !important;
+}
+.icon-data {
+    background-image: url(../img/database_go.png) !important;
+}
+.icon-featureinfo {
+    background-image: url(../img/information.png) !important;
+}
+.icon-layerproperties {
+    background-image: url(../img/folder_explore.png) !important;
+}
+.icon-layerextent {
+    background-image: url(../img/magnifier.png) !important;
+}
+.icon-leaf {
+    background-image: url(../img/leaf.gif) !important;
+}
+.x-btn .icon-pan {
+    background-image: url(../img/pan.png);
+}
+.x-btn .icon-identify {
+    background-image: url(../img/information.png);
+}
+.x-btn .icon-clearselect {
+    background-image: url(../img/erase.png);
+}
+.x-btn .icon-zoomin {
+    background-image: url(../img/magnifier_zoom_in.png);
+}
+.x-btn .icon-zoomout {
+    background-image: url(../img/magnifier_zoom_out.png);
+}
+.x-btn .icon-zoomprevious {
+    background-image: url(../img/arrow_left.png);
+}
+.x-btn .icon-zoomnext {
+    background-image: url(../img/arrow_right.png);
+}
+.x-btn .icon-zoomextent {
+    background-image: url(../img/arrow_out.png);
+}
+.x-btn .icon-measure-length {
+    background-image: url(../img/ruler.png);
+}
+.x-btn .icon-measure-area {
+    background-image: url(../img/ruler_square.png);
+}
+.x-btn .icon-login {
+    background-image: url(../img/door_in.png);
+}
+.x-btn .icon-logout {
+    background-image: url(../img/door_out.png);
+}
+.x-btn .icon-dualview {
+    background-image: url(../img/pegman.png);
+}
+.x-btn .icon-fullscreen {
+    background-image: url(../img/fullscreen.gif);
+}
+.x-btn .icon-link {
+    background-image: url(../img/link.png);
+}
+/*div.olControlMousePosition {
+    color: #000000;
+    background: white;
+    margin-bottom: 20px;
+}*/
+.x-tree-node-leaf .x-tree-node-icon{
+    background-image:url();
+}
+input.x-tree-node-cb {
+    margin-left:-15px;
+}
+.ext-ie input.x-tree-node-cb {
+    margin-left:-15px;
+}
+div.header{
+    background: url(../img/header-bg.png) repeat-x scroll 0 0 #EDEDED;
+}
+
+div.olControlScaleLine {
+   display: block;
+   background: white;
+   position: absolute;
+   right: 10px;
+   left: auto;
+   bottom: 10px;
+   padding: 5px 5px;
+   font-size: xx-small;
+}
+.olControlAttribution {
+    font-size: smaller;
+    /*right: 3px;
+    bottom: 4.5em;*/
+	right: 2px;
+	left: auto;
+    top: 5px;
+    position: absolute;
+    display: block;
+}
+/* Pan- and Zoom- Panel Styles*/
+
+/*.olControlPanPanel div {
+    background-image:url(../resources/ext-3.3.1/resources/images/gray/panel/tool-sprites.gif);
+    height:15px;
+    width:15px;
+    font-size:0px;
+}
+
+.olControlPanPanel .olControlPanNorthItemInactive {
+    background-position:15px -60px;
+    left:16px
+}
+.olControlPanPanel .olControlPanEastItemInactive {
+    background-position:15px -120px;
+    left: 30px;
+    top: 16px;
+}
+.olControlPanPanel .olControlPanSouthItemInactive {
+    background-position:15px -75px;
+    left: 16px;
+    top: 32px;
+}
+.olControlPanPanel .olControlPanWestItemInactive {
+    background-position:15px -105px;
+    left: 2px;
+    top: 16px;
+}
+.olControlZoomPanel {
+    left:21px;
+}
+.olControlZoomPanel div {
+    background-image:url(../resources/ext-3.3.1/resources/images/gray/panel//tool-sprites.gif);
+    height:15px;
+    width:15px;
+    font-size:0px;
+}
+.olControlZoomPanel .olControlZoomInItemInactive {
+    background-position:15px -240px;
+}
+.olControlZoomPanel .olControlZoomToMaxExtentItemInactive {
+    display: none;
+}
+.olControlZoomPanel .olControlZoomOutItemInactive {
+    background-position:15px -255px;
+    top: 123px;
+}*/
+/* position the zoom slider within map panel */
+.gx-zoomslider {
+    top: 90px;
+    left: 17px
+}
+.olControlLoadingPanel {
+	background-image:url(../img/ajax-loader.gif);
+	position: relative;
+	width: 195px;
+	height: 11px;
+	background-position:center;
+	background-repeat:no-repeat;
+	display: none;
+}
+.x-tree-node .gx-tree-layer-outofrange .x-tree-node-icon {
+    opacity: 0.5;
+}
+.gx-tree-layer-outofrange .x-tree-node-anchor span {
+    color: #777;
+}
+.login{
+    float:right;
+    margin: 10px;
+}
+#about-wrapper{
+    border:0;
+    padding:20px;
+    margin:0;
+}
+#about-wrapper h1{
+    background-color: #518dcd;
+    color: #fff;
+    margin: 13px 0;
+    padding: 9px;
+}
+#about-wrapper ul{
+    list-style: disc outside;
+}
+#about-wrapper li{
+    margin-left:40px;
+}
+#about-wrapper .link{
+    text-indent: 30px;
+}
+#about-wrapper .section{
+    padding:10px 0 0 0;
+}
+#about-col1, #about-col2{
+    float:left;
+    width:46%;
+    margin: 0 2% 0 0;
+}
