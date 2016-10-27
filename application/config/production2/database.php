@@ -83,9 +83,9 @@ $db['msterradex']['cachedir'] = '';
 $db['msterradex']['char_set'] = 'utf8';
 $db['msterradex']['dbcollat'] = 'utf8_general_ci';
 
-$db['pgterradex']['hostname'] = '10.180.185.65';
-$db['pgterradex']['username'] = 'postgres';
-$db['pgterradex']['password'] = '';
+$db['pgterradex']['hostname'] = '52.37.27.6';
+$db['pgterradex']['username'] = 'terradex';
+$db['pgterradex']['password'] = 'ruby@1409';
 $db['pgterradex']['database'] = 'terradex';
 $db['pgterradex']['dbdriver'] = 'postgre';
 $db['pgterradex']['dbprefix'] = '';
