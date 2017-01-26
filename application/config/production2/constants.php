@@ -8,7 +8,7 @@
 | These are application specific for Cleanupdeck
 |
 */
-define('GEOSERVER_URL', '52.26.7.13');
+define('GEOSERVER_URL', '52.26.7.130');
 
 /*
 |--------------------------------------------------------------------------

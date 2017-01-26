@@ -8,7 +8,7 @@
 | These are application specific for Cleanupdeck
 |
 */
-define('GEOSERVER_URL', 'acadia.terradex.com');
+define('GEOSERVER_URL', '52.26.7.130');
 
 /*
  * These test constants are only used when ENVIRONMENT is development
