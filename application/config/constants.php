@@ -8,7 +8,7 @@
 | These are application specific for Cleanupdeck
 |
 */
-define('GEOSERVER_URL', '52.26.7.130');
+define('GEOSERVER_URL', '52.26.7.130:8080');
 
 /*
  * These test constants are only used when ENVIRONMENT is development
